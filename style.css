@@ -4,13 +4,22 @@
     box-sizing: border-box;
 }
 
+button {
+    font-family: 'Manrope', sans-serif;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+
+}
+
 body {
     font-family: 'Manrope', sans-serif;
 }
 
 header {
     display: flex;
-    justify-content: space-between;   
+    justify-content: space-between;    
+    padding: 30px 80px;
 }
 
 header p {
@@ -28,5 +37,37 @@ header ul {
 }
 
 header ul li {
-    margin-left: 40px
+    margin-left: 40px;
+    opacity: 70%;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+header ul li:hover {
+    opacity: 100%
+}
+
+header .buttonOne {
+    background: none;
+    font-weight: 500;
+    margin-right: 10px;
+}
+
+header .buttonTwo {
+    background-color: black;
+    padding: 10px 20px;
+    color: white;
+    border-radius: 5px;
+}
+
+header .buttonTwo:hover {
+    background-color: #051938;
+}
+
+h1 {
+    font-size: 72px;
+}
+
+main .contentText p {
+    font-size: 18px;
 }
