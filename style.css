@@ -1,3 +1,4 @@
+/* Geral: */
 * {
     margin: 0;
     padding: 0;
@@ -16,6 +17,7 @@ body {
     font-family: 'Manrope', sans-serif;
 }
 
+/* Cabeçalho */
 header {
     display: flex;
     justify-content: space-between;    
@@ -47,13 +49,13 @@ header ul li:hover {
     opacity: 100%
 }
 
-header .buttonOne {
+header .headerButtonOne {
     background: none;
     font-weight: 500;
     margin-right: 10px;
 }
 
-header .buttonTwo {
+header .headerButtonTwo {
     background-color: black;
     padding: 10px 20px;
     color: white;
@@ -64,10 +66,63 @@ header .buttonTwo:hover {
     background-color: #051938;
 }
 
-h1 {
-    font-size: 72px;
+/* Principal: */
+.hero {
+    display: flex;
+    align-items: center;
+    margin: 75px;
 }
 
-main .contentText p {
-    font-size: 18px;
+h1 {
+    font-size: 72px;
+    line-height: 72px;
 }
+
+.contentText {
+    width: 60%
+}
+
+.contentText p {
+    font-size: 18px;
+    font-weight: 500;
+    opacity: 70%;
+    width: 80%;
+    margin-top: 20px;
+}
+
+.heroButtons {
+    display: flex;
+    gap: 10px;
+    margin-top: 20px;
+}
+
+.heroButtonOne {
+    background-color: black;
+    padding: 10px 20px;
+    color: white;
+    border-radius: 5px;
+    border: 2px solid black;
+    display: flex;
+    align-items: center;
+    gap: 3px;
+}
+
+.heroButtonTwo {
+    background-color: white;
+    padding: 10px 20px;
+    color: black;
+    border-radius: 5px;
+    border: 2px solid black;
+    display: flex;
+    align-items: center;
+    gap: 3px;
+}
+
+.heroButtons img {
+    width: 20px;
+}
+
+.contentImage {
+    width: 40% /* Define a largura da imagem */
+}
+
