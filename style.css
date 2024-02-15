@@ -17,6 +17,10 @@ body {
     font-family: 'Manrope', sans-serif;
 }
 
+h1, h2 {
+    letter-spacing: -1px;
+}
+
 /* Cabeçalho */
 header {
     display: flex;
@@ -87,7 +91,7 @@ h1 {
     font-weight: 500;
     opacity: 70%;
     width: 80%;
-    margin-top: 20px;
+    margin-top: 15px;
 }
 
 .heroButtons {
@@ -126,3 +130,59 @@ h1 {
     width: 40% /* Define a largura da imagem */
 }
 
+.services {
+    margin: 75px;
+}
+
+h2 {
+    font-size: 50px;
+    font-weight: 800;
+}
+.title p {
+    font-size: 18px;
+    font-weight: 500;
+    opacity: 70%;
+    margin-top: 10px;
+    margin-bottom: 40px;
+}
+
+.cards  {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.card {
+    width: 350px;
+    padding: 20px;
+    display: flex;
+    align-items: start;
+    gap: 10px;
+}
+
+.card h4 {
+    font-size: 18px;
+}
+
+.card p {
+    opacity: 70%;
+    font-weight: 500;
+    margin-top: 10px;
+}
+
+.techs p {
+    text-align: center;
+    margin: 96px 0 40px 0;
+    opacity: 70%;
+    font-weight: 500;
+}
+
+.techsImages {
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+    gap: 80px;
+}
+
+.techsImages img {
+    width: 55px;
+}
