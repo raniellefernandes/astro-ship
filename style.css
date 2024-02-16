@@ -138,6 +138,7 @@ h2 {
     font-size: 50px;
     font-weight: 800;
 }
+
 .title p {
     font-size: 18px;
     font-weight: 500;
@@ -185,4 +186,49 @@ h2 {
 
 .techsImages img {
     width: 55px;
+}
+
+.cta {
+    background-color: #000000;
+    border-radius: 8px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 60px;
+    gap: 16px;
+    margin-top: 70px;
+    margin-right: 75px;
+    margin-left: 75px;
+}
+
+.cta h2 {
+    font-size: 60px;
+    font-weight: inherit;
+}
+
+.cta p {
+    font-size: 20px;
+    font-weight: 500;
+    color: #94a3b8;
+}
+
+.cta button {
+    padding: 10px 20px;
+    border-radius: 4px;
+}
+
+footer {
+    text-align: center;
+    opacity: 70%;
+    font-weight: 500;
+    margin-bottom: 90px;
+}
+
+footer p {
+    font-size: 14px;
+}
+
+footer span {
+    font-size: 12px;
 }
