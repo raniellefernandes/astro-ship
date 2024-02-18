@@ -15,6 +15,9 @@ button {
 
 body {
     font-family: 'Manrope', sans-serif;
+
+    max-width: 1280px;
+    margin: 0 auto;
 }
 
 h1, h2 {
@@ -71,19 +74,19 @@ header .buttonTwo:hover {
 }
 
 /* Principal: */
+main {
+    margin: 0 40px;
+}
+
 .hero {
     display: flex;
     align-items: center;
-    margin: 75px;
+    margin: 75px 0;
 }
 
 h1 {
     font-size: 72px;
     line-height: 72px;
-}
-
-.contentText {
-    width: 60%
 }
 
 .contentText p {
@@ -126,12 +129,8 @@ h1 {
     width: 20px;
 }
 
-.contentImage {
-    width: 40% /* Define a largura da imagem */
-}
-
 .services {
-    margin: 75px;
+    margin: 75px 0;
 }
 
 h2 {
